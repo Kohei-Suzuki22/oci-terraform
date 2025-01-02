@@ -16,12 +16,3 @@ terraform {
     }
   }
 }
-
-# terraform {
-#   backend "oci" {
-#     bucket         = "oci-poc-tfstate"       # 作成したバケット名
-#     namespace_name = "nrewurwcjgbm"       # Object Storageのネームスペース
-#     region         = "ap-tokyo-1"           # OCIリージョン
-#     key            = "terraform/terraform.tfstate"  # stateファイルのパス
-#   }
-# }

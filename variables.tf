@@ -14,6 +14,10 @@ variable "fingerprint" {
   
 }
 
+variable "compartment_id" {
+  
+}
+
 variable "region" {
   
 }
